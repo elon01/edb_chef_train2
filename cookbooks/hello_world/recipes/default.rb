@@ -9,3 +9,10 @@
 
 log "Hello To my KILLER CHEF Class!!!!"
 
+directory "/tmp/something" do
+  owner "root"
+  group "root"
+  mode 0755
+  path "/tmp/somethingelse"
+  action :create
+end
