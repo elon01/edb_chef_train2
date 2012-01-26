@@ -37,5 +37,3 @@ rs_utils_marker :end
 
 
 log "See the content of node[:platform] is #{node[:platform]}"
-
-
